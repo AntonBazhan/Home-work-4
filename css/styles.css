@@ -1,1 +1,89 @@
+   html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+     box-sizing: inherit;
+}
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.page-header{
+    width: 1110px;
+    height: 50px;
+}
+
+.site-logo a{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #555252;
+    text-decoration: none;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    margin-top: 9px;
+}
+.site-logo a::first-letter {
+    font-weight: bold;
+    color: #1abc9c;
+
+}
+.site-navigation {
+    width: 465px;
+    list-style: none;
+    float: right;
+    margin-bottom: 15px;
+    height: auto;
+    overflow: hidden;
+    padding-left: 0px;
+}
+
+.site-navigation li{
+
+    display: inline-block;
+
+}
+.site-logo{
+    display: inline-block;
+    float: left;
+    
+ }
+ .menu-item a {
+    text-decoration: none;
+}
+
+.menu-item a {
+    float: left;
+    margin-right: 20px;
+    text-transform: uppercase;
+    text-decoration: none; 
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #0f0101;
+}
+.menu-item a:hover {
+    color: #1abc9c;
+}
+.menu.menu-item a:active {
+    color: #1abc9c;
+}
+.menu-item a:focus {
+    color: #1abc9c;
+}
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+ 
+ 
