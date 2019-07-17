@@ -86,8 +86,17 @@ text-transform: uppercase;
 font-weight: bold;
 margin-top: 0px;
  }
-
- .clearfix::after {
+ 
+ .headline::after {
+    content: "";
+    display: block;
+    text-align: center;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: 32px auto 0;
+ 
+ /*.clearfix::after {
     display: table;
     content: '';
     clear: both;
