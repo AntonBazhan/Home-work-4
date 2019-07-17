@@ -19,6 +19,11 @@ img {
 .page-header{
     width: 1110px;
     height: 50px;
+    margin-bottom: 90px;
+}
+.site-logo{
+    display: inline-block;
+    float: left;
 }
 
 .site-logo a{
@@ -51,14 +56,6 @@ img {
     display: inline-block;
 
 }
-.site-logo{
-    display: inline-block;
-    float: left;
-    
- }
- .menu-item a {
-    text-decoration: none;
-}
 
 .menu-item a {
     float: left;
@@ -66,7 +63,7 @@ img {
     text-transform: uppercase;
     text-decoration: none; 
     font-size: 14px;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: #0f0101;
 }
@@ -80,10 +77,18 @@ img {
     color: #1abc9c;
 }
 
-.clearfix::after {
+ .headline{
+font-family: 'Roboto', sans-serif;
+font-size: 48px;
+color: rgba(81, 81, 81, 255);
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+margin-top: 0px;
+ }
+
+ .clearfix::after {
     display: table;
     content: '';
     clear: both;
 }
- 
- 
