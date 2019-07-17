@@ -171,14 +171,6 @@ margin-right: 0px;
     opacity: 0.44;
 }
 
-.article:first-child { 
-    margin-left: 0px;
-}
-
-.article:last-child{
-    margin-right: 0px;
-}
-
 .article {
     display: inline-block;
     float: left;
@@ -191,6 +183,7 @@ margin-right: 0px;
 .article-image {
     width: 350px;
     height: 260px;
+    
 }
 
 .article-title {
@@ -230,6 +223,14 @@ margin-right: 0px;
     text-align: left;
     overflow: hidden;
 }
+.article:first-child { 
+    margin-left: 0px;
+}
+
+.article:last-child{
+    margin-right: 0px;
+}
+
 
 button {
     width: 160px;
