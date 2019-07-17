@@ -14,6 +14,7 @@ img {
     object-fit: contain;
     overflow: hidden;
 }
+
 .container{
     width: 1110px;
     margin: 0 auto;
@@ -54,9 +55,7 @@ img {
 }
 
 .site-navigation li{
-
     display: inline-block;
-
 }
 
 .menu-item a {
@@ -127,7 +126,7 @@ margin-top: 95px;
 margin-right: 0px;
 }
 .product:nth-child(4n+2) {
-    margin-left: 0px
+margin-left: 0px
 }
  .name {
     width: 200px;
@@ -178,10 +177,11 @@ margin-right: 0px;
     margin: 40px 15px auto;
 }
 
-.article-image {
+.article-image img {
+    
     width: 350px;
     height: 260px;
-    
+    object-fit: none;
 }
 
 .article-title {
