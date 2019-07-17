@@ -141,8 +141,7 @@ margin-right: 0px;
     font-family: "Roboto - Black", sans-serif;
     font-size: 18px;
     font-weight: 400;
-    letter-spacing: -0.36px;
-    text-transform: uppercase;
+   text-transform: uppercase;
 }
 
 .price {
@@ -159,7 +158,6 @@ margin-right: 0px;
     font-family: "Roboto - Black", sans-serif;
     font-size: 18px;
     font-weight: 400;
-    letter-spacing: -0.36px;
     text-transform: uppercase;
 }
 
@@ -196,7 +194,6 @@ margin-right: 0px;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: -0.36px;
     text-align: left;
 }
 
@@ -219,7 +216,6 @@ margin-right: 0px;
     font-size: 14px;
     font-weight: 400;
     line-height: 23px;
-    letter-spacing: -0.28px;
     text-align: left;
     overflow: hidden;
 }
@@ -243,4 +239,4 @@ button {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 300;
-    letter-spacing: -0.32px;
+    
