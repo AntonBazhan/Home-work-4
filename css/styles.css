@@ -19,15 +19,14 @@ img {
 .container{
     width: 1110px;
     margin: 0 auto;
+   
 }
 .page-header{
-    width: 1110;
+    width: 1110px;
     height: 50px;
-    overflow: hidden;
+    font-size: 0px;
     
-}
-.site-logo{
-    float: left;
+       
 }
 
 .site-logo a{
@@ -39,6 +38,7 @@ img {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     margin-top: 9px;
+    overflow: hidden;
 }
 .site-logo a::first-letter {
     font-weight: bold;
@@ -50,15 +50,20 @@ img {
     list-style: none;
     float: right;
     margin-bottom: 15px;
+    margin-top: 15px;
     height: auto;
     overflow: hidden;
     padding-left: 0px;
+    
 }
-
+/*
 .site-navigation li{
     display: inline-block;
-}
+}*/
 
+.site-navigation.menu-item:last-child {
+    margin-right: 0px;
+}
 .menu-item a {
     float: left;
     margin-right: 20px;
@@ -87,6 +92,7 @@ img {
 main {
     text-align: center;
     width: 100%;
+    overflow: hidden;
 }
 
  .headline{
@@ -115,7 +121,8 @@ margin-top: 95px;
     vertical-align: top;
     margin: 15px;
     width: 250px;
-    height: 320px;
+   /* height: 320px;*/
+    min-height: 320px;
     background-color: #e9f0fd;
 }
 
@@ -144,6 +151,8 @@ margin-left: 0px
     font-size: 18px;
     font-weight: 400;
    text-transform: uppercase;
+   margin-bottom: 0px;
+   
 }
 
 .price {
@@ -152,7 +161,6 @@ margin-left: 0px
     line-height: 40px;
     background-color: #323232;
     color: white;
-    opacity: 0.44;
     display: inline-block;
     float: right;
     text-align: center;
@@ -161,6 +169,7 @@ margin-left: 0px
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
+    margin-bottom: 0px;
 }
 
 .product:hover .name {
@@ -248,4 +257,6 @@ button {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 300;
-    
+    border: none; 
+    outline: none; 
+    cursor: pointer;
