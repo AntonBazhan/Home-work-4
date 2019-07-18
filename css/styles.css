@@ -59,12 +59,18 @@ img {
 /*
 .site-navigation li{
     display: inline-block;
-}*/
-
+}
+*/
 .site-navigation.menu-item:last-child {
     margin-right: 0px;
 }
+
 .menu-item a {
+    text-decoration: none;
+}
+    
+
+.menu-item {
     float: left;
     margin-right: 20px;
     text-transform: uppercase;
@@ -132,10 +138,12 @@ margin-top: 95px;
     height: 280px;
     
 }
-.product:nth-child(4n+1) {
+
+.product:nth-child(4n+4) {
 margin-right: 0px;
 }
-.product:nth-child(4n+2) {
+
+.product:nth-child(4n+1) {
 margin-left: 0px
 }
  .name {
