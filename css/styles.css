@@ -67,11 +67,6 @@ img {
 
 .menu-item a {
     text-decoration: none;
-}
-    
-
-.menu-item {
-    float: left;
     margin-right: 20px;
     text-transform: uppercase;
     text-decoration: none; 
@@ -79,6 +74,12 @@ img {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: #0f0101;
+}
+    
+
+.menu-item {
+    float: left;
+  
 }
 .menu-item a:hover {
     color: #1abc9c;
