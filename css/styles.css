@@ -182,6 +182,7 @@ margin-left: 0px
 
 .articles-image-wrapper{
     width: 1110px;
+    overflow: hidden;
     
 }
 
