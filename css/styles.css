@@ -24,12 +24,11 @@ img {
 .page-header{
     width: 1110px;
     height: 50px;
-    font-size: 0px;
-    
-       
+   font-size: 0px;
+           
 }
 
-.site-logo a{
+.logo {
     text-transform: uppercase;
     font-size: 30px;
     color: #555252;
@@ -40,7 +39,7 @@ img {
     margin-top: 9px;
     overflow: hidden;
 }
-.site-logo a::first-letter {
+.logo::first-letter {
     font-weight: bold;
     color: #1abc9c;
 
@@ -53,12 +52,16 @@ img {
     margin-top: 15px;
     height: auto;
     overflow: hidden;
-    padding-left: 0px;
+    padding-left: 30px;
+    letter-spacing:0.3px;
     
 }
+    
+
 
 .site-navigation li{
     margin-right: 20px;
+    text-align: center;
 }
 
 .site-navigation .menu-item:last-child {
@@ -75,6 +78,7 @@ img {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: #0f0101;
+    
 }
     
 .menu-item {
@@ -90,12 +94,13 @@ img {
 .menu-item a:focus {
     color: #1abc9c;
 }
+
 .clearfix::after {
     display: table;
     content: '';
     clear: both;
 }
-
+*/
 main {
     text-align: center;
     width: 100%;
