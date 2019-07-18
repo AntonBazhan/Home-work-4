@@ -76,11 +76,10 @@ img {
     color: #0f0101;
 }
     
-
 .menu-item {
-    float: left;
-  
+    float: left; 
 }
+
 .menu-item a:hover {
     color: #1abc9c;
 }
