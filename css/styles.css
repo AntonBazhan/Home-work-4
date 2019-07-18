@@ -56,19 +56,19 @@ img {
     padding-left: 0px;
     
 }
-/*
+
 .site-navigation li{
-    display: inline-block;
+    margin-right: 20px;
 }
-*/
-.site-navigation.menu-item:last-child {
+
+.site-navigation .menu-item:last-child {
     margin-right: 0px;
 }
 
 .menu-item a {
 
     text-decoration: none;
-    margin-right: 20px;
+   /* margin-right: 20px;*/
     text-transform: uppercase;
     text-decoration: none; 
     font-size: 14px;
