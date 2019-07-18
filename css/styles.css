@@ -45,14 +45,14 @@ img {
 
 }
 .site-navigation {
-    width: 465px;
+    width: 480px;
     list-style: none;
     float: right;
     margin-bottom: 15px;
     margin-top: 15px;
     height: auto;
     overflow: hidden;
-    padding-left: 30px;
+    padding-left: 15px;
     letter-spacing:0.3px;
     
 }
@@ -60,7 +60,7 @@ img {
 
 
 .site-navigation li{
-    margin-right: 20px;
+    margin-right: 27px;
     text-align: center;
 }
 
